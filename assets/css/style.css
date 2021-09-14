@@ -79,10 +79,55 @@ header div nav ul li a {
     width: 90%; 
 }
 
+.portfolio-card {
+    display: flex;
+    flex: 0 0 200%;
+    flex-flow: row wrap;
+    padding-left: 30px;
+}
+
+.portfolio-card-about {
+    flex: 3 3 75%;
+    padding-left: 30px;
+    
+}
+
+.surf-card {
+    display: flex;
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 2%;
+    position: relative;
+    height: 450px;
+    margin: 1%;
+    border: 5px solid rgba(163,210,212,255);
+    box-shadow: inset 0 0 0 100 black;
+
+}
+
+.surf-title {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+    background-color: rgba(146,203,205,255);
+    height: 70px;
+    width: auto;
+
+}
+
+.small-card {
+    position: relative;
+    display: flex;
+    flex: 1 1 40%;
+    height: 150px;
+    padding: 2%;
+    margin: 1%;
+}
+
 .side-title {
-    flex: 0 1 25%;
+    flex: 0 0 15%;
     border-right: 5px solid rgba(85,103,131,255);
-    max-width: 25%;
+    width: 25%;
 }
 
 .side-title h3 {
@@ -99,4 +144,20 @@ header div nav ul li a {
     height: auto;
     float: left;
     margin: 5px 10px 10px 0px;
+}
+
+#surf {
+    background-image: url(../images/surf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 600px;
+}
+
+#led {
+    background-image: url(../images/led.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 600px;
 }
