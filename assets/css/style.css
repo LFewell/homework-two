@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    position: relative;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(49,52,61,255);
+    color: rgba(49,52,61,255)
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 30px;
+
+}
+
+header div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div nav ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    list-style: none;
+
+}
+
+header div nav ul li {
+    border-bottom: 4px solid rgba(145,203,205,255);
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+header div nav ul li a {
+    text-decoration: none;
+    color: rgba(145,203,205,255)
+}
+
+.logo {
+    margin: 18px 0px 40px 0px;
+    width: 18%;
+    background-color: rgba(145,203,205,255)
+}
+
+.hero {
+    height: 400px;
+    width: 102%;
+    margin-left: -10px;
+    margin-bottom: 25px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2{
+    position: absolute;
+    bottom: 400px;
+    right: 70px;
+    font-size: 30px;
+    background-color: rgba(145,203,205,255);
+    color: rgba(49,52,61,255);
+}
+
+.portfolio-container {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    width: 90%; 
+}
+
+.side-title {
+    flex: 0 1 25%;
+    border-right: 5px solid rgba(85,103,131,255);
+    max-width: 25%;
+}
+
+.side-title h3 {
+    color: rgba(85,103,131,255);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    padding: 30px;
+
+}
+
+.selfie {
+    max-width: 100px;
+    height: auto;
+    float: left;
+    margin: 5px 10px 10px 0px;
+}
