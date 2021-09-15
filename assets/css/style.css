@@ -45,6 +45,12 @@ header div nav ul li a {
   color: rgba(145, 203, 205, 255);
 }
 
+div ul li {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
 .logo {
   margin: 18px 0px 40px 0px;
   width: 18%;
@@ -73,7 +79,7 @@ header div nav ul li a {
 .portfolio-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
   width: 90%;
 }
 
@@ -106,9 +112,10 @@ header div nav ul li a {
 .small-card {
   position: relative;
   display: flex;
-  align-items: flex-end;
-  float: bottom;
+  flex-direction: row;
+  ;
   height: 150px;
+  width: 500px;
   padding: 2%;
   margin: 1%;
 }
@@ -137,9 +144,10 @@ header div nav ul li a {
 .contact-card {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
+  justify-content: flex-end;
   list-style: none;
 }
+
 
 #surf {
   background-image: url(../images/surf.jpg);
