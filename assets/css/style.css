@@ -1,163 +1,169 @@
 * {
-    font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    position: relative;
+  position: relative;
 }
 
 header {
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(49,52,61,255);
-    color: rgba(49,52,61,255)
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(49, 52, 61, 255);
+  color: rgba(49, 52, 61, 255);
 }
 
 h1 {
-    font-size: 36px;
-    margin-top: 30px;
-
+  font-size: 36px;
+  margin-top: 30px;
 }
 
 header div {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
 
 header div nav ul {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    list-style: none;
-
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  list-style: none;
 }
 
 header div nav ul li {
-    border-bottom: 4px solid rgba(145,203,205,255);
-    padding: 5px;
-    margin: 0px 10px;
+  border-bottom: 4px solid rgba(145, 203, 205, 255);
+  padding: 5px;
+  margin: 0px 10px;
 }
 
 header div nav ul li a {
-    text-decoration: none;
-    color: rgba(145,203,205,255)
+  text-decoration: none;
+  color: rgba(145, 203, 205, 255);
 }
 
 .logo {
-    margin: 18px 0px 40px 0px;
-    width: 18%;
-    background-color: rgba(145,203,205,255)
+  margin: 18px 0px 40px 0px;
+  width: 18%;
+  background-color: rgba(145, 203, 205, 255);
 }
 
 .hero {
-    height: 400px;
-    width: 102%;
-    margin-left: -10px;
-    margin-bottom: 25px;
-    background-image: url("../images/hero.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 400px;
+  width: 102%;
+  margin-left: -10px;
+  margin-bottom: 25px;
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.hero h2{
-    position: absolute;
-    bottom: 400px;
-    right: 70px;
-    font-size: 30px;
-    background-color: rgba(145,203,205,255);
-    color: rgba(49,52,61,255);
+.hero h2 {
+  position: absolute;
+  top: 300px;
+  right: 70px;
+  font-size: 30px;
+  background-color: rgba(145, 203, 205, 255);
+  color: rgba(49, 52, 61, 255);
 }
 
 .portfolio-container {
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
-    width: 90%; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90%;
 }
 
-.portfolio-card {
-    display: flex;
-    flex: 0 0 200%;
-    flex-flow: row wrap;
-    padding-left: 30px;
-}
-
-.portfolio-card-about {
-    flex: 3 3 75%;
-    padding-left: 30px;
-    
+.portfolio-about {
+  flex: 3 3 75%;
+  padding-left: 30px;
 }
 
 .surf-card {
-    display: flex;
-    flex: 1 1 100%;
-    width: 100%;
-    padding: 2%;
-    position: relative;
-    height: 450px;
-    margin: 1%;
-    border: 5px solid rgba(163,210,212,255);
-    box-shadow: inset 0 0 0 100 black;
-
+  display: flex;
+  flex: 1 1 100%;
+  width: 100%;
+  padding: 2%;
+  position: relative;
+  height: 450px;
+  margin: 1%;
+  border: 5px solid rgba(163, 210, 212, 255);
+  box-shadow: inset 0 0 0 100 black;
 }
 
 .surf-title {
-    position: absolute;
-    left: 0px;
-    bottom: 15px;
-    background-color: rgba(146,203,205,255);
-    height: 70px;
-    width: auto;
-
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+  background-color: rgba(146, 203, 205, 255);
+  height: 70px;
+  width: auto;
 }
 
 .small-card {
-    position: relative;
-    display: flex;
-    flex: 1 1 40%;
-    height: 150px;
-    padding: 2%;
-    margin: 1%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  float: bottom;
+  height: 150px;
+  padding: 2%;
+  margin: 1%;
 }
 
 .side-title {
-    flex: 0 0 15%;
-    border-right: 5px solid rgba(85,103,131,255);
-    width: 25%;
+  flex: 0 0 15%;
+  border-right: 5px solid rgba(85, 103, 131, 255);
+  width: 25%;
 }
 
 .side-title h3 {
-    color: rgba(85,103,131,255);
-    font-size: 30px;
-    font-weight: 700;
-    text-align: right;
-    padding: 30px;
-
+  color: rgba(85, 103, 131, 255);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: right;
+  padding: 30px;
 }
 
 .selfie {
-    max-width: 100px;
-    height: auto;
-    float: left;
-    margin: 5px 10px 10px 0px;
+  max-width: 100px;
+  height: auto;
+  float: left;
+  margin: 5px 10px 10px 0px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  list-style: none;
 }
 
 #surf {
-    background-image: url(../images/surf.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 600px;
+  background-image: url(../images/surf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: relative;
 }
 
 #led {
-    background-image: url(../images/led.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 600px;
+  background-image: url(../images/led.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 600px;
+  border: 5px solid rgba(163, 210, 212, 255);
+}
+
+#calc {
+  background-image: url(../images/calc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 600px;
+  border: 5px solid rgba(163, 210, 212, 255);
 }
