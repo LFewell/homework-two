@@ -46,8 +46,7 @@ header div nav ul li a {
 }
 
 div ul li {
-  display: flex;
-  justify-content: flex-end;
+  display: inline;
   list-style: none;
 }
 
@@ -79,6 +78,13 @@ div ul li {
 .portfolio-container {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.small-card-container {
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   width: 90%;
 }
@@ -93,7 +99,7 @@ div ul li {
   flex: 1 1 100%;
   width: 100%;
   padding: 2%;
-  position: relative;
+  position: absolute;
   height: 450px;
   margin: 1%;
   border: 5px solid rgba(163, 210, 212, 255);
@@ -113,7 +119,7 @@ div ul li {
   position: relative;
   display: flex;
   flex-direction: row;
-  ;
+
   height: 150px;
   width: 500px;
   padding: 2%;
@@ -147,7 +153,6 @@ div ul li {
   justify-content: flex-end;
   list-style: none;
 }
-
 
 #surf {
   background-image: url(../images/surf.jpg);
