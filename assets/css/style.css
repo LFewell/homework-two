@@ -61,7 +61,7 @@ div ul li {
   width: 102%;
   margin-left: -10px;
   margin-bottom: 25px;
-  background-image: url("../images/hero.jpg");
+  background-image: url("https://wallpapercave.com/wp/wp5975729.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -155,7 +155,7 @@ div ul li {
 }
 
 #surf {
-  background-image: url(../images/surf.jpg);
+  background-image: url(https://user-images.githubusercontent.com/84820751/135772581-f7677bb8-677d-4b0d-8861-83011fc40a73.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -164,7 +164,7 @@ div ul li {
 }
 
 #led {
-  background-image: url(../images/led.jpg);
+  background-image: url(https://raw.githubusercontent.com/LFewell/work-day-planner/main/work-day-planner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -173,7 +173,7 @@ div ul li {
 }
 
 #calc {
-  background-image: url(../images/calc.jpg);
+  background-image: url(https://raw.githubusercontent.com/LFewell/weather-dashboard/main/weatherdashboard.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
